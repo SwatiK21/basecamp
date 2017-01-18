@@ -87,7 +87,6 @@ public class MyLinkedList {
 		while(meta.next != null){
 			Node temp = removeFromHead();
 			listNew.addToHead(temp);
-			
 		}
 		return listNew;
 	}
