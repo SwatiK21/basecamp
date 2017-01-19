@@ -1,8 +1,6 @@
 package easyProbPractice;
 
 public class Maximum {
-	
-	
 
 	public static void main(String[] args) {
 		int[] a = {2,5,7,54,4,9,1,6,8,12,21,23};

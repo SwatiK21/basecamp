@@ -20,11 +20,9 @@ public class IsSorted {
 		
 		int[] f = {-2, -1, 1};
 		assertEquals(isSorted(f), true);
-		
 	}
 
 	public static boolean isSorted(int[] a){
-		
 		// Code works even if there's a single item or no item in an array
 		int i = 1;
 		while ( i < a.length){
@@ -36,7 +34,6 @@ public class IsSorted {
 			}
 		}
 		return true;
-		 
 	}
 	
 	public static void assertEquals(boolean actual, boolean expected){
@@ -46,5 +43,4 @@ public class IsSorted {
 			System.out.println("Test failed");
 		}
 	}
-	
 }
